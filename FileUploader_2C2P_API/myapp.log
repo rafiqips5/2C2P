@@ -1,0 +1,59 @@
+2020-10-07 18:08:56,007 [5] INFO FileUploader_2C2P.Helper.FileImportHelper - Inside Method : Load Currnecy
+2020-10-07 18:08:56,172 [5] INFO FileUploader_2C2P.Helper.FileImportHelper - Currency 3 digits symbol count : 112
+2020-10-07 18:08:56,176 [5] INFO FileUploader_2C2P.Helper.FileImportHelper - Inside Method : Load Currnecy
+2020-10-07 18:08:56,177 [5] INFO FileUploader_2C2P.Helper.FileImportHelper - Currency 3 digits symbol count : 112
+2020-10-07 18:10:04,647 [7] INFO FileUploader_2C2P.Helper.FileImportHelper - Inside Method : Load Currnecy
+2020-10-07 18:10:04,688 [7] INFO FileUploader_2C2P.Helper.FileImportHelper - Currency 3 digits symbol count : 112
+2020-10-07 18:10:04,691 [7] INFO FileUploader_2C2P.Helper.FileImportHelper - Inside Method : Load Currnecy
+2020-10-07 18:10:04,693 [7] INFO FileUploader_2C2P.Helper.FileImportHelper - Currency 3 digits symbol count : 112
+2020-10-08 14:16:12,398 [19] INFO FileUploader_2C2P.Helper.FileImportHelper - Inside Method : Load Currnecy
+2020-10-08 14:16:12,562 [19] INFO FileUploader_2C2P.Helper.FileImportHelper - Currency 3 digits symbol count : 112
+2020-10-08 14:16:12,568 [19] INFO FileUploader_2C2P.Helper.FileImportHelper - Inside Method : Load Currnecy
+2020-10-08 14:16:12,570 [19] INFO FileUploader_2C2P.Helper.FileImportHelper - Currency 3 digits symbol count : 112
+2020-10-08 14:45:33,423 [26] INFO FileUploader_2C2P.Helper.FileImportHelper - Inside Method - File Process is started
+2020-10-08 15:50:11,760 [8] INFO FileUploader_2C2P_API.Controllers.FileUploadController - Directory Created successfully
+2020-10-08 16:32:08,855 [5] INFO FileUploader_2C2P_API.Controllers.FileUploadController - Uploaded file Name is data.csv and filePath is D:\2C2P\FileUploader_2C2P_API\upload\csv
+2020-10-08 16:32:11,446 [5] INFO FileUploader_2C2P.Helper.FileImportHelper - Checking directory
+2020-10-08 16:32:13,407 [5] INFO FileUploader_2C2P.Helper.FileImportHelper - Directory : D:\2C2P\FileUploader_2C2P_API\upload\csv Created successfully
+2020-10-08 16:34:03,951 [5] INFO FileUploader_2C2P_API.Controllers.FileUploadController - Uploaded file Name is data.csv and filePath is D:\2C2P\FileUploader_2C2P_API\upload\csv
+2020-10-08 16:34:05,612 [5] INFO FileUploader_2C2P.Helper.FileImportHelper - Checking directory
+2020-10-08 16:34:07,104 [5] INFO FileUploader_2C2P.Helper.FileImportHelper - Directory path : D:\2C2P\FileUploader_2C2P_API\upload\csv is available
+2020-10-08 16:35:31,179 [5] INFO FileUploader_2C2P_API.Controllers.FileUploadController - Uploaded file Name is data.csv and filePath is D:\2C2P\FileUploader_2C2P_API\upload\csv
+2020-10-08 16:35:31,654 [5] INFO FileUploader_2C2P.Helper.FileImportHelper - Checking directory
+2020-10-08 16:35:31,655 [5] INFO FileUploader_2C2P.Helper.FileImportHelper - Directory path : D:\2C2P\FileUploader_2C2P_API\upload\csv is available
+2020-10-08 16:46:06,187 [5] INFO FileUploader_2C2P.Helper.FileImportHelper - Checking directory
+2020-10-08 16:46:21,508 [5] INFO FileUploader_2C2P_API.Controllers.FileUploadController - Uploaded file Name is data.csv and filePath is D:\2C2P\FileUploader_2C2P_API\upload\csv
+2020-10-08 16:46:22,065 [5] INFO FileUploader_2C2P.Helper.FileImportHelper - Checking directory
+2020-10-08 16:46:22,065 [5] INFO FileUploader_2C2P.Helper.FileImportHelper - Directory path : D:\2C2P\FileUploader_2C2P_API\upload\csv is available
+2020-10-08 16:47:18,961 [5] INFO FileUploader_2C2P_API.Controllers.FileUploadController - Uploaded file Name is data.csv and filePath is D:\2C2P\FileUploader_2C2P_API\upload\csv
+2020-10-08 16:47:19,402 [5] INFO FileUploader_2C2P.Helper.FileImportHelper - Checking directory
+2020-10-08 16:47:19,403 [5] INFO FileUploader_2C2P.Helper.FileImportHelper - Directory path : D:\2C2P\FileUploader_2C2P_API\upload\csv is available
+2020-10-08 16:54:31,538 [6] INFO FileUploader_2C2P_API.Controllers.FileUploadController - Uploaded file Name is data.csv and filePath is D:\2C2P\FileUploader_2C2P_API\upload\csv
+2020-10-08 16:54:32,638 [6] INFO FileUploader_2C2P.Helper.FileImportHelper - Checking directory
+2020-10-08 16:54:32,639 [6] INFO FileUploader_2C2P.Helper.FileImportHelper - Directory path : D:\2C2P\FileUploader_2C2P_API\upload\csv is available
+2020-10-08 16:55:30,502 [6] INFO FileUploader_2C2P_API.Controllers.FileUploadController - Uploaded file Name is data.csv and filePath is D:\2C2P\FileUploader_2C2P_API\upload\csv
+2020-10-08 16:55:30,664 [6] INFO FileUploader_2C2P.Helper.FileImportHelper - Checking directory
+2020-10-08 16:55:30,664 [6] INFO FileUploader_2C2P.Helper.FileImportHelper - Directory path : D:\2C2P\FileUploader_2C2P_API\upload\csv is available
+2020-10-08 16:57:34,339 [6] INFO FileUploader_2C2P_API.Controllers.FileUploadController - Uploaded file Name is data.csv and filePath is D:\2C2P\FileUploader_2C2P_API\upload\csv
+2020-10-08 16:57:34,423 [6] INFO FileUploader_2C2P.Helper.FileImportHelper - Checking directory
+2020-10-08 16:57:34,423 [6] INFO FileUploader_2C2P.Helper.FileImportHelper - Directory path : D:\2C2P\FileUploader_2C2P_API\upload\csv is available
+2020-10-08 16:57:42,188 [6] INFO FileUploader_2C2P.Helper.FileImportHelper - Inside Method - File Process is started
+2020-10-08 17:00:26,813 [6] INFO FileUploader_2C2P_API.Controllers.FileUploadController - Uploaded file Name is data.csv and filePath is D:\2C2P\FileUploader_2C2P_API\upload\csv
+2020-10-08 17:00:27,474 [6] INFO FileUploader_2C2P.Helper.FileImportHelper - Checking directory
+2020-10-08 17:00:27,477 [6] INFO FileUploader_2C2P.Helper.FileImportHelper - Directory path : D:\2C2P\FileUploader_2C2P_API\upload\csv is available
+2020-10-08 17:01:54,431 [6] INFO FileUploader_2C2P.Helper.FileImportHelper - Inside Method - File Process is started
+2020-10-08 17:02:00,986 [6] INFO FileUploader_2C2P.Helper.FileImportHelper - Total records available for process is 5 
+2020-10-08 17:06:28,206 [6] INFO FileUploader_2C2P.Helper.FileImportHelper - Start processing record for int001
+2020-10-08 17:08:07,675 [6] INFO FileUploader_2C2P.Helper.FileImportHelper - Start processing record for int001
+2020-10-08 17:09:20,355 [6] INFO FileUploader_2C2P.Helper.FileImportHelper - Start processing record for int001
+2020-10-08 21:55:20,805 [8] INFO FileUploader_2C2P_API.Controllers.FileUploadController - Uploaded file Name is data.csv and filePath is D:\2C2P\FileUploader_2C2P_API\upload\csv
+2020-10-08 21:55:21,355 [8] INFO FileUploader_2C2P.Helper.FileImportHelper - Checking directory
+2020-10-08 21:55:21,357 [8] INFO FileUploader_2C2P.Helper.FileImportHelper - Directory path : D:\2C2P\FileUploader_2C2P_API\upload\csv is available
+2020-10-08 21:55:29,620 [8] INFO FileUploader_2C2P.Helper.FileImportHelper - Inside Method - File Process is started
+2020-10-08 21:55:38,710 [8] INFO FileUploader_2C2P.Helper.FileImportHelper - Total records available for process is 5 
+2020-10-08 21:56:03,285 [8] INFO FileUploader_2C2P.Helper.FileImportHelper - Start processing record for int001
+2020-10-08 21:58:31,496 [8] INFO FileUploader_2C2P.Helper.FileImportHelper - Inside Method : Load Currnecy
+2020-10-08 21:58:31,594 [8] INFO FileUploader_2C2P.Helper.FileImportHelper - Currency 3 digits symbol count : 112
+2020-10-08 22:07:57,339 [8] INFO FileUploader_2C2P.Helper.FileImportHelper - Start processing record for int001
+2020-10-08 22:08:35,881 [8] INFO FileUploader_2C2P.Helper.FileImportHelper - Inside Method : Load Currnecy
+2020-10-08 22:08:35,886 [8] INFO FileUploader_2C2P.Helper.FileImportHelper - Currency 3 digits symbol count : 112
