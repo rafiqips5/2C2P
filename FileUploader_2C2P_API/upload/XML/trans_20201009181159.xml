@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<ArrayOfTransactionFileModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" />Code>USD</CurrencyCode>
+</PaymentDetails>
+<Status>Done</Status>
+</Transaction>
+<Transaction id="Inv00002">
+<TransactionDate>2019-01-24T16:09:15</TransactionDate>
+<PaymentDetails>
+<Amount>10000.00</Amount>
+<CurrencyCode>EUR</CurrencyCode>
+</PaymentDetails>
+<Status>Rejected</Status>
+</Transaction>
+</Transactions>

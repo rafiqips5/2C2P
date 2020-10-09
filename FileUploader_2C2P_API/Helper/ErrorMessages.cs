@@ -13,7 +13,7 @@ namespace FileUploader_2C2P_API.Helper
 
         public static string BadRecordsDesc = "{0} is Invalid due to {}";
 
-        public static string InvalidTrasaction= "The length of the record is more than 50. Maximum allowed char is 50";
+        public static string InvalidTrasaction = "The length of the record is more than 50. Maximum allowed char is 50";
 
         public static string NotFoundTransaction = "Transaction Identificator is not found";
 
@@ -38,5 +38,9 @@ namespace FileUploader_2C2P_API.Helper
         public static string NotFoundAmount = "Invalid amount. Value not supplied";
 
         public static string NotFoundCurrency = "Invalid Currency code. Value not supplied";
+
+        public static string NoContent = "No Data Found";
+
+        public static string InvalidXMLFile = "File contains invalid data format. Please check the XML tags";
     }
 }

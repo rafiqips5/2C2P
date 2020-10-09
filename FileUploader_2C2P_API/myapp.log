@@ -57,3 +57,226 @@
 2020-10-08 22:07:57,339 [8] INFO FileUploader_2C2P.Helper.FileImportHelper - Start processing record for int001
 2020-10-08 22:08:35,881 [8] INFO FileUploader_2C2P.Helper.FileImportHelper - Inside Method : Load Currnecy
 2020-10-08 22:08:35,886 [8] INFO FileUploader_2C2P.Helper.FileImportHelper - Currency 3 digits symbol count : 112
+2020-10-09 11:24:08,736 [10] INFO FileUploader_2C2P_API.Controllers.FileUploadController - Uploaded file Name is data.csv and filePath is D:\2C2P\FileUploader_2C2P_API\upload\csv
+2020-10-09 11:24:09,267 [10] INFO FileUploader_2C2P.Helper.FileImportHelper - Checking directory
+2020-10-09 11:24:09,268 [10] INFO FileUploader_2C2P.Helper.FileImportHelper - Directory path : D:\2C2P\FileUploader_2C2P_API\upload\csv is available
+2020-10-09 11:24:16,576 [10] INFO FileUploader_2C2P.Helper.FileImportHelper - Inside Method - File Process is started
+2020-10-09 11:24:19,481 [10] INFO FileUploader_2C2P.Helper.FileImportHelper - Total records available for process is 5 
+2020-10-09 11:24:22,166 [10] INFO FileUploader_2C2P.Helper.FileImportHelper - Start processing record for int001aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaxccxc
+2020-10-09 11:24:55,680 [10] INFO FileUploader_2C2P.Helper.FileImportHelper - Inside Method : Load Currnecy
+2020-10-09 11:24:55,803 [10] INFO FileUploader_2C2P.Helper.FileImportHelper - Currency 3 digits symbol count : 112
+2020-10-09 11:26:29,075 [10] INFO FileUploader_2C2P.Helper.FileImportHelper - Success Trasanction Id int001aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaxccxc
+2020-10-09 11:26:42,659 [10] INFO FileUploader_2C2P.Helper.FileImportHelper - Start processing record for int001
+2020-10-09 11:26:54,802 [10] INFO FileUploader_2C2P.Helper.FileImportHelper - Inside Method : Load Currnecy
+2020-10-09 11:26:54,811 [10] INFO FileUploader_2C2P.Helper.FileImportHelper - Currency 3 digits symbol count : 112
+2020-10-09 11:27:02,233 [10] INFO FileUploader_2C2P.Helper.FileImportHelper - Success Trasanction Id int001
+2020-10-09 11:27:15,160 [10] INFO FileUploader_2C2P.Helper.FileImportHelper - Start processing record for int001
+2020-10-09 11:27:18,984 [10] INFO FileUploader_2C2P.Helper.FileImportHelper - Inside Method : Load Currnecy
+2020-10-09 11:27:18,992 [10] INFO FileUploader_2C2P.Helper.FileImportHelper - Currency 3 digits symbol count : 112
+2020-10-09 11:28:23,208 [10] INFO FileUploader_2C2P.Helper.FileImportHelper - Start processing record for int001
+2020-10-09 11:28:50,259 [10] INFO FileUploader_2C2P.Helper.FileImportHelper - Inside Method : Load Currnecy
+2020-10-09 11:28:50,268 [10] INFO FileUploader_2C2P.Helper.FileImportHelper - Currency 3 digits symbol count : 112
+2020-10-09 11:29:53,889 [10] INFO FileUploader_2C2P.Helper.FileImportHelper - Start processing record for int001
+2020-10-09 11:29:56,279 [10] INFO FileUploader_2C2P.Helper.FileImportHelper - Inside Method : Load Currnecy
+2020-10-09 11:29:56,287 [10] INFO FileUploader_2C2P.Helper.FileImportHelper - Currency 3 digits symbol count : 112
+2020-10-09 11:30:35,038 [10] INFO FileUploader_2C2P.Helper.FileImportHelper - Wrong data in the file. No need to upload the data in the database 3
+2020-10-09 11:31:17,271 [9] INFO FileUploader_2C2P_API.Controllers.FileUploadController - Uploaded file Name is data.csv and filePath is D:\2C2P\FileUploader_2C2P_API\upload\csv
+2020-10-09 11:31:17,271 [9] INFO FileUploader_2C2P.Helper.FileImportHelper - Checking directory
+2020-10-09 11:31:17,272 [9] INFO FileUploader_2C2P.Helper.FileImportHelper - Directory path : D:\2C2P\FileUploader_2C2P_API\upload\csv is available
+2020-10-09 11:31:20,606 [9] INFO FileUploader_2C2P.Helper.FileImportHelper - Inside Method - File Process is started
+2020-10-09 11:31:20,608 [9] INFO FileUploader_2C2P.Helper.FileImportHelper - Total records available for process is 5 
+2020-10-09 11:31:20,608 [9] INFO FileUploader_2C2P.Helper.FileImportHelper - Start processing record for int001aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaxccxc
+2020-10-09 11:31:24,934 [9] INFO FileUploader_2C2P.Helper.FileImportHelper - Inside Method : Load Currnecy
+2020-10-09 11:31:24,942 [9] INFO FileUploader_2C2P.Helper.FileImportHelper - Currency 3 digits symbol count : 112
+2020-10-09 11:31:24,945 [9] INFO FileUploader_2C2P.Helper.FileImportHelper - Success Trasanction Id int001aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaxccxc
+2020-10-09 11:31:24,946 [9] INFO FileUploader_2C2P.Helper.FileImportHelper - Start processing record for int001
+2020-10-09 11:31:24,946 [9] INFO FileUploader_2C2P.Helper.FileImportHelper - Inside Method : Load Currnecy
+2020-10-09 11:31:24,953 [9] INFO FileUploader_2C2P.Helper.FileImportHelper - Currency 3 digits symbol count : 112
+2020-10-09 11:31:24,956 [9] INFO FileUploader_2C2P.Helper.FileImportHelper - Success Trasanction Id int001
+2020-10-09 11:31:24,956 [9] INFO FileUploader_2C2P.Helper.FileImportHelper - Start processing record for int001
+2020-10-09 11:31:24,957 [9] INFO FileUploader_2C2P.Helper.FileImportHelper - Inside Method : Load Currnecy
+2020-10-09 11:31:24,964 [9] INFO FileUploader_2C2P.Helper.FileImportHelper - Currency 3 digits symbol count : 112
+2020-10-09 11:31:24,967 [9] INFO FileUploader_2C2P.Helper.FileImportHelper - Start processing record for int001
+2020-10-09 11:31:24,967 [9] INFO FileUploader_2C2P.Helper.FileImportHelper - Inside Method : Load Currnecy
+2020-10-09 11:31:24,974 [9] INFO FileUploader_2C2P.Helper.FileImportHelper - Currency 3 digits symbol count : 112
+2020-10-09 11:31:24,977 [9] INFO FileUploader_2C2P.Helper.FileImportHelper - Start processing record for int001
+2020-10-09 11:31:24,978 [9] INFO FileUploader_2C2P.Helper.FileImportHelper - Inside Method : Load Currnecy
+2020-10-09 11:31:24,984 [9] INFO FileUploader_2C2P.Helper.FileImportHelper - Currency 3 digits symbol count : 112
+2020-10-09 15:49:54,095 [8] INFO FileUploader_2C2P_API.Controllers.FileUploadController - Uploaded file Name is data.csv and filePath is D:\2C2P\FileUploader_2C2P_API\upload\csv
+2020-10-09 15:49:54,491 [8] INFO FileUploader_2C2P.Helper.FileImportHelper - Checking directory
+2020-10-09 15:49:54,493 [8] INFO FileUploader_2C2P.Helper.FileImportHelper - Directory path : D:\2C2P\FileUploader_2C2P_API\upload\csv is available
+2020-10-09 15:50:07,886 [8] INFO FileUploader_2C2P.Helper.FileImportHelper - Inside Method - File Process is started
+2020-10-09 15:50:15,539 [8] INFO FileUploader_2C2P.Helper.FileImportHelper - Total records available for process is 5 
+2020-10-09 15:50:17,484 [8] INFO FileUploader_2C2P.Helper.FileImportHelper - Start processing record for int001aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaxccxc
+2020-10-09 15:50:17,717 [8] INFO FileUploader_2C2P.Helper.FileImportHelper - Inside Method : Load Currnecy
+2020-10-09 15:50:17,868 [8] INFO FileUploader_2C2P.Helper.FileImportHelper - Currency 3 digits symbol count : 112
+2020-10-09 15:50:18,990 [8] INFO FileUploader_2C2P.Helper.FileImportHelper - Success Trasanction Id int001aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaxccxc
+2020-10-09 15:50:42,811 [8] ERROR FileUploader_2C2P.Helper.FileImportHelper - Exception occured while reading the data from the fiel
+2020-10-09 15:51:00,081 [8] INFO FileUploader_2C2P.Helper.FileImportHelper - Inside Method - File Process is started
+2020-10-09 15:51:02,513 [8] INFO FileUploader_2C2P.Helper.FileImportHelper - Total records available for process is 5 
+2020-10-09 15:51:03,991 [8] INFO FileUploader_2C2P.Helper.FileImportHelper - Start processing record for int001aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaxccxc
+2020-10-09 15:51:04,217 [8] INFO FileUploader_2C2P.Helper.FileImportHelper - Inside Method : Load Currnecy
+2020-10-09 15:51:04,218 [8] INFO FileUploader_2C2P.Helper.FileImportHelper - Currency 3 digits symbol count : 112
+2020-10-09 15:51:04,992 [8] INFO FileUploader_2C2P.Helper.FileImportHelper - Success Trasanction Id int001aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaxccxc
+2020-10-09 15:59:08,814 [6] INFO FileUploader_2C2P_API.Controllers.FileUploadController - Uploaded file Name is data.csv and filePath is D:\2C2P\FileUploader_2C2P_API\upload\csv
+2020-10-09 15:59:08,929 [6] INFO FileUploader_2C2P.Helper.FileImportHelper - Checking directory
+2020-10-09 15:59:08,930 [6] INFO FileUploader_2C2P.Helper.FileImportHelper - Directory path : D:\2C2P\FileUploader_2C2P_API\upload\csv is available
+2020-10-09 15:59:12,813 [6] INFO FileUploader_2C2P.Helper.FileImportHelper - Inside Method - File Process is started
+2020-10-09 15:59:14,704 [6] INFO FileUploader_2C2P.Helper.FileImportHelper - Total records available for process is 5 
+2020-10-09 15:59:15,541 [6] INFO FileUploader_2C2P.Helper.FileImportHelper - Start processing record for int001aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaxccxc
+2020-10-09 15:59:15,650 [6] INFO FileUploader_2C2P.Helper.FileImportHelper - Inside Method : Load Currnecy
+2020-10-09 15:59:15,837 [6] INFO FileUploader_2C2P.Helper.FileImportHelper - Currency 3 digits symbol count : 112
+2020-10-09 15:59:16,159 [6] INFO FileUploader_2C2P.Helper.FileImportHelper - Success Trasanction Id int001aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaxccxc
+2020-10-09 15:59:17,792 [6] INFO FileUploader_2C2P.Helper.FileImportHelper - Start processing record for int001
+2020-10-09 15:59:18,026 [6] INFO FileUploader_2C2P.Helper.FileImportHelper - Inside Method : Load Currnecy
+2020-10-09 15:59:18,030 [6] INFO FileUploader_2C2P.Helper.FileImportHelper - Currency 3 digits symbol count : 112
+2020-10-09 15:59:18,884 [6] INFO FileUploader_2C2P.Helper.FileImportHelper - Success Trasanction Id int001
+2020-10-09 15:59:19,842 [6] INFO FileUploader_2C2P.Helper.FileImportHelper - Start processing record for int001
+2020-10-09 15:59:19,916 [6] INFO FileUploader_2C2P.Helper.FileImportHelper - Inside Method : Load Currnecy
+2020-10-09 15:59:19,917 [6] INFO FileUploader_2C2P.Helper.FileImportHelper - Currency 3 digits symbol count : 112
+2020-10-09 15:59:22,186 [6] INFO FileUploader_2C2P.Helper.FileImportHelper - Start processing record for int001
+2020-10-09 15:59:22,250 [6] INFO FileUploader_2C2P.Helper.FileImportHelper - Inside Method : Load Currnecy
+2020-10-09 15:59:22,252 [6] INFO FileUploader_2C2P.Helper.FileImportHelper - Currency 3 digits symbol count : 112
+2020-10-09 15:59:23,746 [6] INFO FileUploader_2C2P.Helper.FileImportHelper - Start processing record for int001
+2020-10-09 15:59:23,944 [6] INFO FileUploader_2C2P.Helper.FileImportHelper - Inside Method : Load Currnecy
+2020-10-09 15:59:23,945 [6] INFO FileUploader_2C2P.Helper.FileImportHelper - Currency 3 digits symbol count : 112
+2020-10-09 15:59:25,131 [6] INFO FileUploader_2C2P.Helper.FileImportHelper - Wrong data in the file. No need to upload the data in the database 3
+2020-10-09 15:59:38,302 [6] INFO FileUploader_2C2P.Helper.FileImportHelper - Inside Method - File Process is started
+2020-10-09 15:59:39,180 [6] INFO FileUploader_2C2P.Helper.FileImportHelper - Total records available for process is 5 
+2020-10-09 15:59:39,904 [6] INFO FileUploader_2C2P.Helper.FileImportHelper - Start processing record for int001aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaxccxc
+2020-10-09 15:59:40,430 [6] INFO FileUploader_2C2P.Helper.FileImportHelper - Inside Method : Load Currnecy
+2020-10-09 15:59:40,436 [6] INFO FileUploader_2C2P.Helper.FileImportHelper - Currency 3 digits symbol count : 112
+2020-10-09 15:59:40,708 [6] INFO FileUploader_2C2P.Helper.FileImportHelper - Success Trasanction Id int001aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaxccxc
+2020-10-09 15:59:43,739 [6] INFO FileUploader_2C2P.Helper.FileImportHelper - Start processing record for int001
+2020-10-09 15:59:43,807 [6] INFO FileUploader_2C2P.Helper.FileImportHelper - Inside Method : Load Currnecy
+2020-10-09 15:59:43,809 [6] INFO FileUploader_2C2P.Helper.FileImportHelper - Currency 3 digits symbol count : 112
+2020-10-09 15:59:44,016 [6] INFO FileUploader_2C2P.Helper.FileImportHelper - Success Trasanction Id int001
+2020-10-09 15:59:45,347 [6] INFO FileUploader_2C2P.Helper.FileImportHelper - Start processing record for int001
+2020-10-09 15:59:51,912 [6] INFO FileUploader_2C2P.Helper.FileImportHelper - Inside Method : Load Currnecy
+2020-10-09 15:59:51,917 [6] INFO FileUploader_2C2P.Helper.FileImportHelper - Currency 3 digits symbol count : 112
+2020-10-09 16:03:33,976 [6] INFO FileUploader_2C2P.Helper.FileImportHelper - Inside Method - File Process is started
+2020-10-09 16:03:33,986 [6] INFO FileUploader_2C2P.Helper.FileImportHelper - Total records available for process is 5 
+2020-10-09 16:03:33,986 [6] INFO FileUploader_2C2P.Helper.FileImportHelper - Start processing record for int001aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaxccxc
+2020-10-09 16:03:33,987 [6] INFO FileUploader_2C2P.Helper.FileImportHelper - Inside Method : Load Currnecy
+2020-10-09 16:03:33,993 [6] INFO FileUploader_2C2P.Helper.FileImportHelper - Currency 3 digits symbol count : 112
+2020-10-09 16:03:33,994 [6] INFO FileUploader_2C2P.Helper.FileImportHelper - Success Trasanction Id int001aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaxccxc
+2020-10-09 16:04:02,294 [6] INFO FileUploader_2C2P.Helper.FileImportHelper - Start processing record for int001
+2020-10-09 16:04:02,294 [6] INFO FileUploader_2C2P.Helper.FileImportHelper - Inside Method : Load Currnecy
+2020-10-09 16:04:02,300 [6] INFO FileUploader_2C2P.Helper.FileImportHelper - Currency 3 digits symbol count : 112
+2020-10-09 16:04:02,301 [6] INFO FileUploader_2C2P.Helper.FileImportHelper - Success Trasanction Id int001
+2020-10-09 16:04:02,302 [6] INFO FileUploader_2C2P.Helper.FileImportHelper - Start processing record for int001
+2020-10-09 16:04:02,302 [6] INFO FileUploader_2C2P.Helper.FileImportHelper - Inside Method : Load Currnecy
+2020-10-09 16:04:02,307 [6] INFO FileUploader_2C2P.Helper.FileImportHelper - Currency 3 digits symbol count : 112
+2020-10-09 16:04:02,308 [6] INFO FileUploader_2C2P.Helper.FileImportHelper - Start processing record for int001
+2020-10-09 16:04:02,308 [6] INFO FileUploader_2C2P.Helper.FileImportHelper - Inside Method : Load Currnecy
+2020-10-09 16:04:02,312 [6] INFO FileUploader_2C2P.Helper.FileImportHelper - Currency 3 digits symbol count : 112
+2020-10-09 16:04:02,313 [6] INFO FileUploader_2C2P.Helper.FileImportHelper - Start processing record for int001
+2020-10-09 16:04:02,313 [6] INFO FileUploader_2C2P.Helper.FileImportHelper - Inside Method : Load Currnecy
+2020-10-09 16:04:02,317 [6] INFO FileUploader_2C2P.Helper.FileImportHelper - Currency 3 digits symbol count : 112
+2020-10-09 16:05:17,525 [6] INFO FileUploader_2C2P.Helper.FileImportHelper - Opening connection to the database
+2020-10-09 16:05:22,023 [6] INFO FileUploader_2C2P.Helper.DatabaseHelper - Strart Inserting data into Database , Record Count is 2
+2020-10-09 16:05:23,122 [6] INFO FileUploader_2C2P.Helper.DatabaseHelper - Validating Configuration
+2020-10-09 16:05:23,124 [6] INFO FileUploader_2C2P.Helper.DatabaseHelper - Validation Configuration successfully
+2020-10-09 16:05:42,712 [6] INFO FileUploader_2C2P.Helper.DatabaseHelper - Data Processed successfully. Reocrd count is 2
+2020-10-09 16:06:46,761 [6] INFO FileUploader_2C2P.Helper.FileImportHelper - Database has been processed successfully
+2020-10-09 17:44:14,191 [9] INFO FileUploader_2C2P_API.Controllers.FileUploadController - File Upload Started
+2020-10-09 17:44:15,164 [9] INFO FileUploader_2C2P_API.Controllers.FileUploadController - Count of the Files : 0
+2020-10-09 17:44:37,807 [10] INFO FileUploader_2C2P_API.Controllers.FileUploadController - File Upload Started
+2020-10-09 17:44:39,255 [10] INFO FileUploader_2C2P_API.Controllers.FileUploadController - Count of the Files : 1
+2020-10-09 17:44:52,011 [10] INFO FileUploader_2C2P_API.Controllers.FileUploadController - Uploaded file Name is trans.xml and filePath is D:\2C2P\FileUploader_2C2P_API\upload\csv
+2020-10-09 17:44:52,143 [10] INFO FileUploader_2C2P.Helper.FileImportHelper - Checking directory
+2020-10-09 17:44:52,143 [10] INFO FileUploader_2C2P.Helper.FileImportHelper - Directory path : D:\2C2P\FileUploader_2C2P_API\upload\csv is available
+2020-10-09 17:44:54,855 [10] INFO FileUploader_2C2P_API.Controllers.FileUploadController - Imported file has been renamed and path is D:\2C2P\FileUploader_2C2P_API\upload\csv/trans_20201009174452.csv
+2020-10-09 17:50:10,437 [6] INFO FileUploader_2C2P_API.Controllers.FileUploadController - File Upload Started
+2020-10-09 17:50:10,839 [6] INFO FileUploader_2C2P_API.Controllers.FileUploadController - Count of the Files : 1
+2020-10-09 17:50:20,762 [6] INFO FileUploader_2C2P_API.Controllers.FileUploadController - Uploaded file Name is trans.xml and filePath is D:\2C2P\FileUploader_2C2P_API\upload\XML
+2020-10-09 17:50:23,268 [6] INFO FileUploader_2C2P.Helper.FileImportHelper - Checking directory
+2020-10-09 17:50:23,278 [6] INFO FileUploader_2C2P.Helper.FileImportHelper - Directory : D:\2C2P\FileUploader_2C2P_API\upload\XML Created successfully
+2020-10-09 17:50:27,536 [6] INFO FileUploader_2C2P_API.Controllers.FileUploadController - Imported file has been renamed and path is D:\2C2P\FileUploader_2C2P_API\upload\XML/trans_20201009175021.xml
+2020-10-09 18:00:41,749 [13] INFO FileUploader_2C2P_API.Controllers.FileUploadController - File Upload Started
+2020-10-09 18:00:42,429 [13] INFO FileUploader_2C2P_API.Controllers.FileUploadController - Count of the Files : 1
+2020-10-09 18:00:44,672 [13] INFO FileUploader_2C2P_API.Controllers.FileUploadController - Uploaded file Name is trans.xml and filePath is D:\2C2P\FileUploader_2C2P_API\upload\XML
+2020-10-09 18:00:44,673 [13] INFO FileUploader_2C2P.Helper.FileImportHelper - Checking directory
+2020-10-09 18:00:44,674 [13] INFO FileUploader_2C2P.Helper.FileImportHelper - Directory path : D:\2C2P\FileUploader_2C2P_API\upload\XML is available
+2020-10-09 18:00:44,678 [13] INFO FileUploader_2C2P_API.Controllers.FileUploadController - Imported file has been renamed and path is D:\2C2P\FileUploader_2C2P_API\upload\XML/trans_20201009180044.xml
+2020-10-09 18:01:22,566 [12] INFO FileUploader_2C2P_API.Controllers.FileUploadController - File Upload Started
+2020-10-09 18:01:22,567 [12] INFO FileUploader_2C2P_API.Controllers.FileUploadController - Count of the Files : 1
+2020-10-09 18:01:22,569 [12] INFO FileUploader_2C2P_API.Controllers.FileUploadController - Uploaded file Name is trans.xml and filePath is D:\2C2P\FileUploader_2C2P_API\upload\XML
+2020-10-09 18:01:22,570 [12] INFO FileUploader_2C2P.Helper.FileImportHelper - Checking directory
+2020-10-09 18:01:22,571 [12] INFO FileUploader_2C2P.Helper.FileImportHelper - Directory path : D:\2C2P\FileUploader_2C2P_API\upload\XML is available
+2020-10-09 18:01:22,589 [12] INFO FileUploader_2C2P_API.Controllers.FileUploadController - Imported file has been renamed and path is D:\2C2P\FileUploader_2C2P_API\upload\XML/trans_20201009180122.xml
+2020-10-09 18:01:48,828 [12] INFO FileUploader_2C2P_API.Controllers.FileUploadController - File Upload Started
+2020-10-09 18:01:48,834 [12] INFO FileUploader_2C2P_API.Controllers.FileUploadController - Count of the Files : 1
+2020-10-09 18:01:48,835 [12] INFO FileUploader_2C2P_API.Controllers.FileUploadController - Uploaded file Name is trans.xml and filePath is D:\2C2P\FileUploader_2C2P_API\upload\XML
+2020-10-09 18:01:48,835 [12] INFO FileUploader_2C2P.Helper.FileImportHelper - Checking directory
+2020-10-09 18:01:48,836 [12] INFO FileUploader_2C2P.Helper.FileImportHelper - Directory path : D:\2C2P\FileUploader_2C2P_API\upload\XML is available
+2020-10-09 18:01:48,848 [12] INFO FileUploader_2C2P_API.Controllers.FileUploadController - Imported file has been renamed and path is D:\2C2P\FileUploader_2C2P_API\upload\XML/trans_20201009180148.xml
+2020-10-09 18:06:08,390 [12] INFO FileUploader_2C2P_API.Controllers.FileUploadController - File Upload Started
+2020-10-09 18:06:08,391 [12] INFO FileUploader_2C2P_API.Controllers.FileUploadController - Count of the Files : 1
+2020-10-09 18:06:08,391 [12] INFO FileUploader_2C2P_API.Controllers.FileUploadController - Uploaded file Name is trans.xml and filePath is D:\2C2P\FileUploader_2C2P_API\upload\XML
+2020-10-09 18:06:08,391 [12] INFO FileUploader_2C2P.Helper.FileImportHelper - Checking directory
+2020-10-09 18:06:08,391 [12] INFO FileUploader_2C2P.Helper.FileImportHelper - Directory path : D:\2C2P\FileUploader_2C2P_API\upload\XML is available
+2020-10-09 18:06:08,401 [12] INFO FileUploader_2C2P_API.Controllers.FileUploadController - Imported file has been renamed and path is D:\2C2P\FileUploader_2C2P_API\upload\XML/trans_20201009180608.xml
+2020-10-09 18:08:10,116 [12] INFO FileUploader_2C2P_API.Controllers.FileUploadController - File Upload Started
+2020-10-09 18:08:10,116 [12] INFO FileUploader_2C2P_API.Controllers.FileUploadController - Count of the Files : 1
+2020-10-09 18:08:10,117 [12] INFO FileUploader_2C2P_API.Controllers.FileUploadController - Uploaded file Name is trans.xml and filePath is D:\2C2P\FileUploader_2C2P_API\upload\XML
+2020-10-09 18:08:10,118 [12] INFO FileUploader_2C2P.Helper.FileImportHelper - Checking directory
+2020-10-09 18:08:10,119 [12] INFO FileUploader_2C2P.Helper.FileImportHelper - Directory path : D:\2C2P\FileUploader_2C2P_API\upload\XML is available
+2020-10-09 18:08:10,128 [12] INFO FileUploader_2C2P_API.Controllers.FileUploadController - Imported file has been renamed and path is D:\2C2P\FileUploader_2C2P_API\upload\XML/trans_20201009180810.xml
+2020-10-09 18:11:59,482 [12] INFO FileUploader_2C2P_API.Controllers.FileUploadController - File Upload Started
+2020-10-09 18:11:59,483 [12] INFO FileUploader_2C2P_API.Controllers.FileUploadController - Count of the Files : 1
+2020-10-09 18:11:59,484 [12] INFO FileUploader_2C2P_API.Controllers.FileUploadController - Uploaded file Name is trans.xml and filePath is D:\2C2P\FileUploader_2C2P_API\upload\XML
+2020-10-09 18:11:59,488 [12] INFO FileUploader_2C2P.Helper.FileImportHelper - Checking directory
+2020-10-09 18:11:59,489 [12] INFO FileUploader_2C2P.Helper.FileImportHelper - Directory path : D:\2C2P\FileUploader_2C2P_API\upload\XML is available
+2020-10-09 18:11:59,515 [12] INFO FileUploader_2C2P_API.Controllers.FileUploadController - Imported file has been renamed and path is D:\2C2P\FileUploader_2C2P_API\upload\XML/trans_20201009181159.xml
+2020-10-09 18:13:53,454 [13] INFO FileUploader_2C2P_API.Controllers.FileUploadController - File Upload Started
+2020-10-09 18:13:53,454 [13] INFO FileUploader_2C2P_API.Controllers.FileUploadController - Count of the Files : 1
+2020-10-09 18:13:53,455 [13] INFO FileUploader_2C2P_API.Controllers.FileUploadController - Uploaded file Name is trans.xml and filePath is D:\2C2P\FileUploader_2C2P_API\upload\XML
+2020-10-09 18:13:53,456 [13] INFO FileUploader_2C2P.Helper.FileImportHelper - Checking directory
+2020-10-09 18:13:53,456 [13] INFO FileUploader_2C2P.Helper.FileImportHelper - Directory path : D:\2C2P\FileUploader_2C2P_API\upload\XML is available
+2020-10-09 18:13:53,478 [13] INFO FileUploader_2C2P_API.Controllers.FileUploadController - Imported file has been renamed and path is D:\2C2P\FileUploader_2C2P_API\upload\XML/trans_20201009181353.xml
+2020-10-09 18:15:23,204 [19] INFO FileUploader_2C2P_API.Controllers.FileUploadController - File Upload Started
+2020-10-09 18:15:23,628 [19] INFO FileUploader_2C2P_API.Controllers.FileUploadController - Count of the Files : 1
+2020-10-09 18:15:26,447 [19] INFO FileUploader_2C2P_API.Controllers.FileUploadController - Uploaded file Name is trans.xml and filePath is D:\2C2P\FileUploader_2C2P_API\upload\XML
+2020-10-09 18:15:26,448 [19] INFO FileUploader_2C2P.Helper.FileImportHelper - Checking directory
+2020-10-09 18:15:26,448 [19] INFO FileUploader_2C2P.Helper.FileImportHelper - Directory path : D:\2C2P\FileUploader_2C2P_API\upload\XML is available
+2020-10-09 18:15:26,454 [19] INFO FileUploader_2C2P_API.Controllers.FileUploadController - Imported file has been renamed and path is D:\2C2P\FileUploader_2C2P_API\upload\XML/trans_20201009181526.xml
+2020-10-09 18:26:25,863 [5] INFO FileUploader_2C2P_API.Controllers.FileUploadController - File Upload Started
+2020-10-09 18:26:25,918 [5] INFO FileUploader_2C2P_API.Controllers.FileUploadController - Count of the Files : 1
+2020-10-09 18:26:25,943 [5] INFO FileUploader_2C2P_API.Controllers.FileUploadController - Uploaded file Name is trans.xml and filePath is D:\2C2P\FileUploader_2C2P_API\upload\XML
+2020-10-09 18:26:25,949 [5] INFO FileUploader_2C2P.Helper.FileImportHelper - Checking directory
+2020-10-09 18:26:25,950 [5] INFO FileUploader_2C2P.Helper.FileImportHelper - Directory path : D:\2C2P\FileUploader_2C2P_API\upload\XML is available
+2020-10-09 18:26:25,967 [5] INFO FileUploader_2C2P_API.Controllers.FileUploadController - Imported file has been renamed and path is D:\2C2P\FileUploader_2C2P_API\upload\XML/trans_20201009182625.xml
+2020-10-09 18:54:31,127 [5] INFO FileUploader_2C2P.Helper.FileImportHelper - Inside Method : Load Currnecy
+2020-10-09 18:54:31,265 [5] INFO FileUploader_2C2P.Helper.FileImportHelper - Currency 3 digits symbol count : 112
+2020-10-09 18:54:53,625 [5] INFO FileUploader_2C2P.Helper.FileImportHelper - Inside Method : Load Currnecy
+2020-10-09 18:54:53,691 [5] INFO FileUploader_2C2P.Helper.FileImportHelper - Currency 3 digits symbol count : 112
+2020-10-09 19:00:35,500 [5] INFO FileUploader_2C2P.Helper.FileImportHelper - Inside Method : Load Currnecy
+2020-10-09 19:00:35,510 [5] INFO FileUploader_2C2P.Helper.FileImportHelper - Currency 3 digits symbol count : 112
+2020-10-09 19:00:45,472 [5] INFO FileUploader_2C2P.Helper.FileImportHelper - Inside Method : Load Currnecy
+2020-10-09 19:00:45,475 [5] INFO FileUploader_2C2P.Helper.FileImportHelper - Currency 3 digits symbol count : 112
+2020-10-09 19:21:43,969 [8] INFO FileUploader_2C2P_API.Controllers.FileUploadController - File Upload Started
+2020-10-09 19:21:44,031 [8] INFO FileUploader_2C2P_API.Controllers.FileUploadController - Count of the Files : 1
+2020-10-09 19:21:44,054 [8] INFO FileUploader_2C2P_API.Controllers.FileUploadController - Uploaded file Name is trans.xml and filePath is D:\2C2P\FileUploader_2C2P_API\upload\XML
+2020-10-09 19:21:44,056 [8] INFO FileUploader_2C2P.Helper.FileImportHelper - Checking directory
+2020-10-09 19:21:44,056 [8] INFO FileUploader_2C2P.Helper.FileImportHelper - Directory path : D:\2C2P\FileUploader_2C2P_API\upload\XML is available
+2020-10-09 19:21:44,061 [8] INFO FileUploader_2C2P_API.Controllers.FileUploadController - Imported file has been renamed and path is D:\2C2P\FileUploader_2C2P_API\upload\XML/trans_20201009192144.xml
+2020-10-09 19:21:44,062 [8] INFO FileUploader_2C2P.Helper.FileImportHelper - Start Processing the XML files
+2020-10-09 19:22:50,494 [8] INFO FileUploader_2C2P.Helper.FileImportHelper - Path of the XSD files file:///D:/2C2P/FileUploader_2C2P_API/bin/XSD/Transactions.xsd
+2020-10-09 19:22:56,015 [8] INFO FileUploader_2C2P.Helper.FileImportHelper - XML validated Successfully for the file D:\2C2P\FileUploader_2C2P_API\upload\XML/trans_20201009192144.xml
+2020-10-09 19:23:01,205 [8] INFO FileUploader_2C2P.Helper.FileImportHelper - Inside Method : Load Currnecy
+2020-10-09 19:23:01,265 [8] INFO FileUploader_2C2P.Helper.FileImportHelper - Currency 3 digits symbol count : 112
+2020-10-09 19:23:06,186 [8] INFO FileUploader_2C2P.Helper.FileImportHelper - Inside Method : Load Currnecy
+2020-10-09 19:23:06,191 [8] INFO FileUploader_2C2P.Helper.FileImportHelper - Currency 3 digits symbol count : 112
+2020-10-09 19:26:52,583 [8] INFO FileUploader_2C2P.Helper.FileImportHelper - Path of the XSD files file:///D:/2C2P/FileUploader_2C2P_API/bin/XSD/Transactions.xsd
+2020-10-09 19:26:55,391 [8] INFO FileUploader_2C2P.Helper.FileImportHelper - XML validated Successfully for the file D:\2C2P\FileUploader_2C2P_API\upload\XML/trans_20201009192144.xml
+2020-10-09 19:27:03,317 [8] INFO FileUploader_2C2P.Helper.FileImportHelper - Inside Method : Load Currnecy
+2020-10-09 19:27:03,318 [8] INFO FileUploader_2C2P.Helper.FileImportHelper - Currency 3 digits symbol count : 112
+2020-10-09 19:27:08,203 [8] INFO FileUploader_2C2P.Helper.FileImportHelper - Inside Method : Load Currnecy
+2020-10-09 19:27:08,205 [8] INFO FileUploader_2C2P.Helper.FileImportHelper - Currency 3 digits symbol count : 112
+2020-10-09 19:27:21,633 [8] INFO FileUploader_2C2P.Helper.FileImportHelper - Opening connection to the database
+2020-10-09 19:27:22,133 [8] INFO FileUploader_2C2P.Helper.DatabaseHelper - Strart Inserting data into Database , Record Count is 2
+2020-10-09 19:27:22,133 [8] INFO FileUploader_2C2P.Helper.DatabaseHelper - Validating Configuration
+2020-10-09 19:27:22,134 [8] INFO FileUploader_2C2P.Helper.DatabaseHelper - Validation Configuration successfully
+2020-10-09 19:27:24,623 [8] INFO FileUploader_2C2P.Helper.DatabaseHelper - Data Processed successfully. Reocrd count is 2
+2020-10-09 19:27:31,168 [8] INFO FileUploader_2C2P.Helper.FileImportHelper - Database has been processed successfully
