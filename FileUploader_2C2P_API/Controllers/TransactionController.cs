@@ -8,6 +8,7 @@ using System.Net;
 using System.Net.Http;
 using System.Web.Http;
 using System.Configuration;
+using FileUploader_2C2P_API.Models;
 
 namespace FileUploader_2C2P_API.Controllers
 {
@@ -41,6 +42,7 @@ namespace FileUploader_2C2P_API.Controllers
         {
             databaseHelper = new DatabaseHelper();
             string[] statusArray = new string[3];
+            string[] statusXMLArray = new string[3];
             List<GetTransactionResponse> getTransactionResponse = null;
 
             try
@@ -50,10 +52,11 @@ namespace FileUploader_2C2P_API.Controllers
                     log.InfoFormat("status is empty");
                     return Request.CreateErrorResponse(HttpStatusCode.NotFound, ErrorMessages.NotFoundStatusDesc);
                 }
-                if (!string.IsNullOrEmpty(ConfigurationManager.AppSettings["Status"]))
+                if (!string.IsNullOrEmpty(ConfigurationManager.AppSettings["CSVStatus"]) && (!string.IsNullOrEmpty(ConfigurationManager.AppSettings["XMLStatus"])))
                 {
-                    statusArray = ConfigurationManager.AppSettings["Status"].Split(',');
-                    if (statusArray.Contains(status.ToLower()))
+                    statusArray = ConfigurationManager.AppSettings["CSVStatus"].Split(',');
+                    statusXMLArray = ConfigurationManager.AppSettings["XMLStatus"].Split(',');
+                    if (statusArray.Contains(status.ToLower()) || statusXMLArray.Contains(status.ToLower()))
                     {
                         log.InfoFormat("Status : {0} is valid", status);
                         getTransactionResponse = databaseHelper.GetTransaactionBySatus(status);
@@ -83,31 +86,33 @@ namespace FileUploader_2C2P_API.Controllers
             }
 
         }
-        [HttpGet]
-        [Route("api/Transaction/TransactionByStatus/{startDate}/{toDateTime}")]
-        public HttpResponseMessage GetTransactionByDate(DateTime startDate, DateTime toDateTime)
+        [HttpPost]
+        [Route("api/Transaction/TransactionByDate")]
+        public HttpResponseMessage GetTransactionByDate([FromBody] GetTransactionByDatesRequest getTransactionByDatesRequest)
         {
             databaseHelper = new DatabaseHelper();
             string[] statusArray = new string[3];
             List<GetTransactionResponse> getTransactionResponse = null;
 
+            // DateTime stDate = DateTime.ParseExact(getTransactionByDatesRequest.startDate, "yyyy-mm-dd HH:mm:ss.tt", null);
+            //DateTime toDate = DateTime.ParseExact(getTransactionByDatesRequest.toDateTime, "yyyy-mm-dd HH:mm:ss.tt", null);
             try
             {
-                if (string.IsNullOrEmpty(startDate.ToString()) && string.IsNullOrEmpty(toDateTime.ToString()))
+                if (string.IsNullOrEmpty(getTransactionByDatesRequest.StartDate.ToString()) && string.IsNullOrEmpty(getTransactionByDatesRequest.EndDate.ToString()))
                 {
                     log.InfoFormat("start date and end date is empty");
                     return Request.CreateErrorResponse(HttpStatusCode.NotFound, ErrorMessages.NotFoundDateTime);
                 }
-                if (startDate > toDateTime)
+                if (getTransactionByDatesRequest.StartDate <= getTransactionByDatesRequest.StartDate)
                 {
-                    log.InfoFormat("start date : {0} and endDate {1} is valid", startDate, toDateTime);
-                    getTransactionResponse = databaseHelper.GetTransaactionByDate(startDate, toDateTime);
+                    log.InfoFormat("start date : {0} and endDate {1} is valid", getTransactionByDatesRequest.StartDate, getTransactionByDatesRequest.EndDate);
+                    getTransactionResponse = databaseHelper.GetTransaactionByDate(getTransactionByDatesRequest.StartDate, getTransactionByDatesRequest.EndDate);
                     return Request.CreateResponse(getTransactionResponse);
                 }
                 else
                 {
-                    log.InfoFormat("start date : {0} and endDate {1} is valid", startDate, toDateTime);                  
-                    return Request.CreateErrorResponse(HttpStatusCode.BadRequest,ErrorMessages.InvalidDateRange);
+                    log.InfoFormat("start date : {0} and endDate {1} is valid", getTransactionByDatesRequest.StartDate, getTransactionByDatesRequest.EndDate);
+                    return Request.CreateErrorResponse(HttpStatusCode.BadRequest, ErrorMessages.InvalidDateRange);
                 }
             }
             catch (WebException ex)

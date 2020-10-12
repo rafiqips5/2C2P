@@ -173,6 +173,7 @@
     <Compile Include="Helper\ErrorMessages.cs" />
     <Compile Include="Helper\FileImportHelper.cs" />
     <Compile Include="Models\Currency.cs" />
+    <Compile Include="Models\GetTransactionByDatesRequest.cs" />
     <Compile Include="Models\Response\APIResponseModel.cs" />
     <Compile Include="Models\Response\GetTransactionResponse.cs" />
     <Compile Include="Models\Response\TransactionErrorModel.cs" />

@@ -1379,3 +1379,25 @@
 2020-10-12 11:52:53,971 [5] INFO FileUploader_2C2P.Helper.DatabaseHelper - Validation Configuration successfully
 2020-10-12 11:52:54,233 [5] INFO FileUploader_2C2P.Helper.DatabaseHelper - Data Processed successfully. Reocrd count is 2
 2020-10-12 11:52:54,234 [5] INFO FileUploader_2C2P.Helper.FileImportHelper - Database has been processed successfully
+2020-10-12 12:20:39,385 [21] INFO FileUploader_2C2P.Helper.DatabaseHelper - Get Transaction from database started
+2020-10-12 12:20:39,386 [21] INFO FileUploader_2C2P.Helper.DatabaseHelper - Validating Configuration
+2020-10-12 12:20:39,386 [21] INFO FileUploader_2C2P.Helper.DatabaseHelper - Validation Configuration successfully
+2020-10-12 12:53:15,697 [9] INFO FileUploader_2C2P_API.Controllers.TransactionController - start date : 01/23/2019 13:45:10 and endDate 01/01/0001 00:00:00 is valid
+2020-10-12 12:53:18,924 [10] INFO FileUploader_2C2P_API.Controllers.TransactionController - start date : 01/23/2019 13:45:10 and endDate 01/24/2019 16:09:15 is valid
+2020-10-12 12:54:25,018 [10] INFO FileUploader_2C2P_API.Controllers.TransactionController - start date : 01/23/2019 13:45:10 and endDate 01/24/2019 16:09:15 is valid
+2020-10-12 12:54:25,620 [10] INFO FileUploader_2C2P.Helper.DatabaseHelper - Get Transaction from database started
+2020-10-12 12:54:25,622 [10] INFO FileUploader_2C2P.Helper.DatabaseHelper - Validating Configuration
+2020-10-12 12:54:25,623 [10] INFO FileUploader_2C2P.Helper.DatabaseHelper - Validation Configuration successfully
+2020-10-12 12:57:37,668 [9] INFO FileUploader_2C2P_API.Controllers.TransactionController - Invalid Configuration. Status in missing in appSeetings section
+2020-10-12 13:04:23,121 [13] INFO FileUploader_2C2P_API.Controllers.TransactionController - Status : done is valid
+2020-10-12 13:04:23,173 [13] INFO FileUploader_2C2P.Helper.DatabaseHelper - Get Transaction from database started
+2020-10-12 13:04:23,174 [13] INFO FileUploader_2C2P.Helper.DatabaseHelper - Validating Configuration
+2020-10-12 13:04:23,174 [13] INFO FileUploader_2C2P.Helper.DatabaseHelper - Validation Configuration successfully
+2020-10-12 13:04:45,611 [11] INFO FileUploader_2C2P_API.Controllers.TransactionController - Status : done is valid
+2020-10-12 13:04:48,862 [11] INFO FileUploader_2C2P.Helper.DatabaseHelper - Get Transaction from database started
+2020-10-12 13:04:49,444 [11] INFO FileUploader_2C2P.Helper.DatabaseHelper - Validating Configuration
+2020-10-12 13:04:49,444 [11] INFO FileUploader_2C2P.Helper.DatabaseHelper - Validation Configuration successfully
+2020-10-12 13:06:26,832 [11] INFO FileUploader_2C2P_API.Controllers.TransactionController - Status : done is valid
+2020-10-12 13:06:26,833 [11] INFO FileUploader_2C2P.Helper.DatabaseHelper - Get Transaction from database started
+2020-10-12 13:06:26,833 [11] INFO FileUploader_2C2P.Helper.DatabaseHelper - Validating Configuration
+2020-10-12 13:06:26,833 [11] INFO FileUploader_2C2P.Helper.DatabaseHelper - Validation Configuration successfully
