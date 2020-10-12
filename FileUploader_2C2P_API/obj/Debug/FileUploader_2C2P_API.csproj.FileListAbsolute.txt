@@ -63,3 +63,6 @@ D:\2C2P\FileUploader_2C2P_API\obj\Debug\FileUploader_2C2P_API.dll
 D:\2C2P\FileUploader_2C2P_API\obj\Debug\FileUploader_2C2P_API.pdb
 D:\2C2P\FileUploader_2C2P_API\bin\log4net.xml
 D:\2C2P\FileUploader_2C2P_API\bin\Log4net.config
+D:\2C2P\FileUploader_2C2P_API\bin\System.Web.Cors.dll
+D:\2C2P\FileUploader_2C2P_API\bin\System.Web.Http.Cors.dll
+D:\2C2P\FileUploader_2C2P_API\bin\System.Web.Http.Cors.xml

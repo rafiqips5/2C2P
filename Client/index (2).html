@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <title>File Upload</title>
+</head>
+<body>
+  <div class="container-fluid">
+    <h2>File Upload</h2>
+    <hr>
+    <div class="row">
+      <div class="col">
+        <form class="form-inline">
+          <div class="form-group mx-sm-3 mb-2">
+            <label for="fileUpload" class="sr-only">Select Input File</label>
+            <input type="file" class="form-control" id="fileUpload" name="fileUpload">
+          </div>
+          <button type="submit" class="btn btn-primary mb-2">Submit</button>
+        </form>
+      </div>
+    </div>
+    <hr>
+    <h5>Result:</h5>
+    <div class="row">
+      <div class="col">
+        <div id="result"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
+  <script>
+    $(document).ready(function () {
+	  $.cors =true
+      $('form').submit(function (event) {
+        event.preventDefault();
+        /*var formData = {
+          'file': $('#fileUpload').val()
+        };*/
+		
+		 var formData = new FormData();  
+         var file = $('#fileUpload')[0];  
+         formData.append('file', file.files[0]);  
+         $('#result').html("");
+        $.ajax({
+          type: 'POST',
+          url: 'https://localhost:44337/api/FileUpload/Upload',
+          data: formData,
+		  contentType:false,
+		  processData: false,
+		  success: function(data)  {
+          // var data = {
+          //     "StatusCode": 400,
+          //     "Response": [
+          //       { "TransactionIdentificator": "int003", "FailureReason": ",Invalid Currency code. sample currency code for American dollor is USD" },
+          //       { "TransactionIdentificator": "int004", "FailureReason": ",Invalid Currency code. sample currency code for American dollor is USD" },
+          //       { "TransactionIdentificator": "int005", "FailureReason": ",Invalid Satus description.Possibles Values are Approved, Rejected and Done" }
+          //     ]
+          //   };
+            if (data.StatusCode === 200) {
+              $('#result').html("<div class='alert alert-success' role='alert'>"+data.Response+"</div>");
+            }
+            if (data.StatusCode === 400) {
+              data.Response.forEach(element =>
+                $('#result').append("<div class='alert alert-danger' role='alert'> <b>" + element.TransactionIdentificator + "</b>:" + element.FailureReason + "</div>")
+              );
+             }
+			},
+			error: function (data) {
+			
+		     $('#result').html("<div class='alert alert-danger' role='alert'>" + data.responseJSON +"</div>");   
+            console.log(data);
+           }
+	    });
+      });
+    });
+	function GetFileSize(fileid) {
+			try {
+				var fileSize = 0;
+				//for IE
+				fileSize = $("#" + fileid)[0].files[0].size //size in kb
+				fileSize = fileSize / Math.pow(1024, 2); //size in mb
+				return fileSize;
+			}
+			catch (e) {
+				alert("Error is :" + e);
+			}
+		}
+
+		//get file path from client system
+		function getNameFromPath(strFilepath) {
+			var objRE = new RegExp(/([^\/\\]+)$/);
+			var strName = objRE.exec(strFilepath);
+
+			if (strName == null) {
+				return null;
+			}
+			else {
+				return strName[0];
+			}
+		}
+
+		$("#btnSubmit").click(function () {
+			if ($('#fileUpload').val() == "") {
+				$("#result").html("<div class='alert alert-danger' role='alert'> Please upload file </div>");
+				return false;
+			}
+			else {
+				return checkfile();
+			}
+		});
+
+		function checkfile() {
+			var file = getNameFromPath($("#fileUpload").val());
+			if (file != null) {
+				var extension = file.substr((file.lastIndexOf('.') + 1));
+				// alert(extension);
+				switch (extension) {
+					case 'csv':
+						flag = true;
+						break;
+					case 'xml':
+						flag = true;
+						break;
+					default:
+						flag = false;
+				}
+			}
+			if (flag == false) {
+				$("#result").html("<div class='alert alert-danger' role='alert'>Invalid file format. Allowed file format are.csv and xml extension file</div>");
+				return false;
+			}
+			else {
+			     $('#result').html("");
+				var size = GetFileSize('fileUpload');
+				if (size > 1) {
+					$("#result").html("<div class='alert alert-danger' role='alert'>You can upload file up to 1 MB</div>");
+					return false;
+				}
+				else {
+					 $('#result').html("");
+				}
+			}
+		}
+
+		$(function () {
+			$("#fileUpload").change(function () {
+			 $('#result').html("");
+			checkfile();
+			});
+		});
+  </script>
+  <style>
+    .form-control {
+      padding: .265rem .5rem;
+    }
+  </style>
+</body>
+</html>
