@@ -47,7 +47,7 @@ namespace FileUploader_2C2P.Helper
                         string[] columns = line.Split(',');
 
                         log.InfoFormat("Start processing record for {0}", columns[0]);
-                        errorReason = ValidateFileInputs(columns[0], columns[1], columns[2], columns[3], columns[4]);
+                        errorReason = ValidateFileInputs(columns[0], columns[1], columns[2], columns[3], columns[4],path);
                         if (string.IsNullOrEmpty(errorReason))
                         {
                             log.InfoFormat("Success Trasanction Id {0}", columns[0]);
@@ -178,14 +178,13 @@ namespace FileUploader_2C2P.Helper
             return currencyList;
         }
 
-        public static string ValidateFileInputs(string transaction, string amount, string currencyCode, string dateTime, string status)
+        public static string ValidateFileInputs(string transaction, string amount, string currencyCode, string dateTime, string status,string path)
         {
             string failureReason = string.Empty;
-            string[] statusDesc = ConfigurationManager.AppSettings["Status"].Split(',');
-
-
+            string[] statusDesc = new string[3];
             List<Currency> currencyLists = null;
 
+            log.InfoFormat("validaiton strarted for transaction : {0}",transaction);
             try
             {
                 if (string.IsNullOrEmpty(transaction))
@@ -234,18 +233,31 @@ namespace FileUploader_2C2P.Helper
                     failureReason = failureReason + "," + ErrorMessages.NotFoundStatusDesc;
                 }
 
-                if (!statusDesc.Contains(status.ToLower()))
+                if (path.Contains("csv"))
                 {
-                    failureReason = failureReason + "," + ErrorMessages.InvalidStatusDesc;
+                    statusDesc = ConfigurationManager.AppSettings["CSVStatus"].Split(',');
+                    if (!statusDesc.Contains(status.ToLower()))
+                    {
+                        failureReason = failureReason + "," + ErrorMessages.InvalidStatusDesc;
+                    }
+                }
+                else
+                {
+                    statusDesc = ConfigurationManager.AppSettings["XMLStatus"].Split(',');
+                    if (!statusDesc.Contains(status.ToLower()))
+                    {
+                        failureReason = failureReason + "," + ErrorMessages.InvalidStatusDesc;
+                    }
                 }
             }
-            catch (Exception)
+            catch (Exception ex)
             {
-
-                throw;
+                log.ErrorFormat("exception occured while validating the inputs for transaction id : {0} Exception:",transaction,ex);
             }
+            log.InfoFormat("validaiton completed successfully for transaction ID : {0}",transaction);
 
-            return failureReason;
+            return  failureReason;
+
         }
 
         public static bool DirectoryCheck(string filePath)
@@ -328,7 +340,7 @@ namespace FileUploader_2C2P.Helper
                     {
                         log.InfoFormat("Invalid XML file. Unable to Validate the XML file");
                         apiResponseModel = new APIResponseModel();
-                        apiResponseModel.StatusCode = HttpStatusCode.BadRequest;
+                        apiResponseModel.StatusCode = HttpStatusCode.PartialContent;
                         apiResponseModel.Response = ErrorMessages.InvalidXMLFile;
                         
                     }
@@ -397,7 +409,7 @@ namespace FileUploader_2C2P.Helper
                 currencyCode = node.ChildNodes[1].ChildNodes[1].InnerText;
                 status = node.ChildNodes[2].InnerText;
 
-               failureReason = ValidateFileInputs(transId, amount, currencyCode, transDate, status);
+               failureReason = ValidateFileInputs(transId, amount, currencyCode, transDate, status, xmlFilePath);
 
                 if (string.IsNullOrEmpty(failureReason))
                 {

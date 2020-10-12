@@ -12,9 +12,12 @@ using Newtonsoft.Json;
 using System.Configuration;
 using FileUploader_2C2P_API.Helper;
 using FileUploader_2C2P_API.Models.Response;
+using System.Web.Http.Cors;
 
 namespace FileUploader_2C2P_API.Controllers
 {
+    [AllowAnonymous]
+    [EnableCors(origins: "*", headers: "*", methods: "*")]
     public class FileUploadController : ApiController
     {
         private static readonly log4net.ILog log = log4net.LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
@@ -44,12 +47,12 @@ namespace FileUploader_2C2P_API.Controllers
                     if (postedFile.FileName.Contains("csv"))
                     {
                         apiResponseModel = FileImportHelper.ImportCSVFile(FileCopyProcess(postedFile));
-                        return Request.CreateResponse(apiResponseModel);
+                        return Request.CreateResponse(HttpStatusCode.PartialContent,apiResponseModel);
                     }
                     if (postedFile.FileName.Contains("xml"))
                     {
                         apiResponseModel = FileImportHelper.ImportXMFiles(FileCopyProcess(postedFile));
-                        return Request.CreateResponse(apiResponseModel);
+                        return Request.CreateResponse(HttpStatusCode.PartialContent,apiResponseModel);
                     }
                 }
                 return Request.CreateResponse(HttpStatusCode.Created, docfiles);

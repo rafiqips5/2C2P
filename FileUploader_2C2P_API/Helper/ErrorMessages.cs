@@ -42,5 +42,8 @@ namespace FileUploader_2C2P_API.Helper
         public static string NoContent = "No Data Found";
 
         public static string InvalidXMLFile = "File contains invalid data format. Please check the XML tags";
+
+        public static string InvalidDateRange = "Start Date must be smaller than To Date";
+
     }
 }
